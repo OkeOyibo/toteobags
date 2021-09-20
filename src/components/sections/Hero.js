@@ -61,11 +61,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Welcome to <span className="text-color-primary">toteobags</span>
+              Welcome to <span className="text-color-primary">Toteobags</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our bags are made with sustainable fabrics and a good portion of LOVE❤️
+                Our bags are made with sustainable fabrics and a good portion of LOVE<span role="img" aria-label="heart">❤️</span>
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
