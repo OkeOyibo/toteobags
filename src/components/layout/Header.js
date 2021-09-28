@@ -85,7 +85,7 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
           <Logo />
-          <h4>Toteobags</h4>
+          <h4>Toteo Bags</h4>
         </div>
       </div>
     </header>
