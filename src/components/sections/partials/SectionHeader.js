@@ -5,7 +5,8 @@ import classNames from 'classnames';
 const propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string,
-    paragraph: PropTypes.string
+    paragraph: PropTypes.string,
+    paragraph2: PropTypes.string
   }).isRequired,
   children: PropTypes.node,
   tag: PropTypes.oneOf(['h1', 'h2', 'h3'])
@@ -48,7 +49,7 @@ const SectionHeader = ({
                 )}>{data.title}</Component>
             }
             {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+              <p className="m-0">{data.paragraph }{data.paragraph2 ? <><br/><br/></> : <></>}{data.paragraph2 ? data.paragraph2 : <></>}</p>
             }
           </div>
         </div>

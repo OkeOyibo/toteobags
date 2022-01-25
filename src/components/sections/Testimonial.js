@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'See what our customers are saying about our products'
+    title: 'Instagram Posts',
+    paragraph: 'Check out our latest posts on social media, and feel free to tag us once you receive your product. '
   };
 
   return (
@@ -79,7 +79,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    Das Material ist sehr robust aber dennoch sehr weich und angenehm.<br/><br/>Zwei Worte: Einfach genial! 
+                    Das Material ist sehr robust aber dennoch sehr weich und angenehm.<br/><br/>Zwei Worte: Einfach genial!
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">

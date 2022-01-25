@@ -51,7 +51,9 @@ const FeaturesSplit = ({
   const sectionHeader = {
     title: "Designed for comfort and practicality",
     paragraph:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+      "Through hard work, we have developed a bag that combines a tote bag and a backpack to find the best of both worlds.",
+    paragraph2:
+      "We created a product for virtually any situation with removable backpack straps, which you can rearrange in whichever way you desire. ",
   };
 
   return (
@@ -68,8 +70,8 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">Thoughtful design</div>
                 <h3 className="mt-0 mb-12">Built from the ground up</h3>
                 <p className="m-0">
-                  Our team tried their best to implement all of the features a modern bag should have, while still
-                  maintaining a unique and stylish look.
+                  Our team produces all our bags by ourselves with great effort. The result is a stylish, handmade bag
+                  with a unique design you can only find here.
                 </p>
               </div>
               <div
@@ -96,8 +98,12 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">Thoughtful design</div>
                 <h3 className="mt-0 mb-12">From Concept</h3>
                 <p className="m-0">
-                  The first ideas where merely a few scratches on some paper. After hours of redefining and optimizing
-                  the, the concept was finished.
+                  We started with just an idea; a simple concept drawn out on paper— a plan that marked the start of our
+                  journey as a company.
+                  <br />
+                  <br />
+                  After many hours of improving and optimizing this first design, we are happy to present you with our
+                  final product.
                 </p>
               </div>
               <div
@@ -124,9 +130,15 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">Thoughtful design</div>
                 <h3 className="mt-0 mb-12">To the final product</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
+                  After careful consideration during our design phase, we could finally get to work.
+                  <br />
+                  <br />
+                  Our bags, produced with sustainable fabrics, are sewn from the ground up by our team. To add a
+                  personal touch to our product, patches of our mascot, Toteo the Sloth, are sewn on every bag.
+                  <br />
+                  <br />
+                  You will receive your Toteo Bag by mail or by pickup, packaged together with our business card for you
+                  to enjoy.
                 </p>
               </div>
               <div

@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Attributes of our products',
-    paragraph: 'These apply to all of our current and soon to be available products.'
+    paragraph: 'We produce all our bags with these attributes in mind.'
   };
 
   return (
@@ -74,7 +74,7 @@ const FeaturesTiles = ({
                     Durable
                     </h4>
                   <p className="m-0 text-sm">
-                    Despite it's softness, the fabrics used are strong and durable.
+                    Despite being soft, the fabrics we use are solid and durable.
                     </p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                     Hand picked
                     </h4>
                   <p className="m-0 text-sm">
-                    With great care each individual order gets packaged by one of our team members.
+                    We package each order personally with great care.
                     </p>
                 </div>
               </div>

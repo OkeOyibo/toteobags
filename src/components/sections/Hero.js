@@ -35,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -65,12 +65,12 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our bags are made with sustainable fabrics and a good portion of LOVE<span role="img" aria-label="heart">❤️</span>
+                We strive to produce unique tote bags with sustainable materials. Are you interested? Keep on reading to get to know us!
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" target="blank" color="primary" wideMobile href="https://depop.com/toteobags">
-                    Shop
+                    Shop now
                   </Button>
                 </ButtonGroup>
               </div>
